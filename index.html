@@ -15,11 +15,34 @@
         <li>Remover  Contato</li>
         <li>Alterar Contato</li>
     </ol>
-    <p>Escolha uma opção: <input id="opcao" type="number" min="1" max="4"><button onclick="escolhaMenu()" type="button">Ok</button></p><br>
+    <p>Escolha uma opção: <input id="opcao" type="number" min="1" max="4"><button onclick="escolhaMenu()" type="button">Ok</button></p>
+    <table border="1px">
+        <tr>
+            <th>Nome</th>
+            <th>Número</th>
+        </tr>
+    </table><hr>
    
     <!--Adicionar contato-->
     <div id="adicionar" style="display: none;">
-        <p>Digite o nome do contato:<input type="text"</p>
+        <p>Digite o nome do contato:<input id="nome" type="text"></p>
+        <p>Digite o Número do contato:<input id="numero" type="text"></p>
+        <button type="button">Adicionar</button><hr>
+    </div>
+
+    <!--Buscar contato-->
+    <div id="consultar" style="display: none;">
+        <input type="text" placeholder="buscar"><button type="button">buscar</button><hr>
+    </div>
+
+    <!--Remover Contato-->
+    <div id="remover" style="display: none;">
+        <input type="text" placeholder="Ex.: FulanoDeTal"><button type="button">Remover</button><hr>
+    </div>
+
+    <!--Alterar contato-->
+    <div id="alterar" style='display: none;'>
+        <input type="text" placeholder="Ex.: FulanoDeTal"><button type="button">Alterar</button>
     </div>
     
     

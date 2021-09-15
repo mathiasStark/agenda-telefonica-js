@@ -1,5 +1,13 @@
-input#opcao{
-    width: 30px;
+input{
     background-color: azure;
     margin: 0 5px;
+    border-radius: 5px;
+}
+
+input#opcao{
+    width: 30px;   
+}
+
+button{
+    border-radius: 5px;
 }
